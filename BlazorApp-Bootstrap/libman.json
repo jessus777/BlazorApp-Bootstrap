@@ -16,6 +16,11 @@
     {
       "library": "jquery@3.6.0",
       "destination": "wwwroot/jquery/"
+    },
+    {
+      "provider": "jsdelivr",
+      "library": "select2@4.1.0-rc.0",
+      "destination": "wwwroot/lib/select2/"
     }
   ]
 }
