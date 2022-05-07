@@ -1,0 +1,161 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\img\avatar\avatar-2.svg" />
+    <None Include="wwwroot\img\avatar\avatar-face-02.webp" />
+    <None Include="wwwroot\img\avatar\avatar-face-03.webp" />
+    <None Include="wwwroot\img\avatar\avatar-face-04.webp" />
+    <None Include="wwwroot\img\avatar\avatar-face-05.webp" />
+    <None Include="wwwroot\img\avatar\avatar-illustrated-01.webp" />
+    <None Include="wwwroot\img\avatar\avatar-illustrated-02.webp" />
+    <None Include="wwwroot\img\avatar\avatar-illustrated-03.webp" />
+    <None Include="wwwroot\img\avatar\avatar-illustrated-04.webp" />
+    <None Include="wwwroot\img\avatar\Avatar.svg" />
+    <None Include="wwwroot\img\categories\01.webp" />
+    <None Include="wwwroot\img\categories\02.webp" />
+    <None Include="wwwroot\img\categories\03.webp" />
+    <None Include="wwwroot\img\categories\04.webp" />
+    <None Include="wwwroot\img\svg\404.svg" />
+    <None Include="wwwroot\img\svg\baloon.svg" />
+    <None Include="wwwroot\img\svg\Bulk\2 User.svg" />
+    <None Include="wwwroot\img\svg\Bulk\3-User-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\3-User-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Activity.svg" />
+    <None Include="wwwroot\img\svg\Bulk\AddUser.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Down.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Down2.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Down3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-DownCircle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-DownSquare.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Left.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Left2.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Left3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-LeftCircle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-LeftSquare.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Right.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Right2.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Right3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-RightCircle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-RightSquare.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Up.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Up2.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-Up3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-UpCircle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrow-UpSquare.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Arrows-up-down.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Bag 3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Bag.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Bookmark.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Buy.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Calendar.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Call Missed.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Call Silent.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Call.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Calling.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Camera.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Category-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Category-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Chart.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Chat.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Close Square.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Danger.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Delete.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Discount.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Discovery.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Document-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Document-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Download.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Edit Square.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Edit-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Edit-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Filter 2.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Filter.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Folder-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Folder-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Game.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Graph.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Heart.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Hide.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Home-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Home-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Image 3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Image-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Image-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Info Circle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Info Square.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Location.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Lock.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Login.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Logout.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Menu-toggle-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Menu-toggle-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Message-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Message-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\More Circle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\More Square.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Notification-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Notification.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper Download.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper Fail.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper Negative.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper Plus.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper Upload.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Paper-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Password.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Play.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Plus.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Profile.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Scan.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Search.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Send.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Setting-gray.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Setting-white.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Settings-line.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Shield Done.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Shield Fail.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Show.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Star.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Swap.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Tick Square.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Ticket Star.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Ticket.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Time Square.svg" />
+    <None Include="wwwroot\img\svg\Bulk\TimeCircle.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Unlock.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Upload.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Video.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Voice 3.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Voice.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Volume Down.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Volume Off.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Volume Up.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Wallet.svg" />
+    <None Include="wwwroot\img\svg\Bulk\Work.svg" />
+    <None Include="wwwroot\img\svg\customers.svg" />
+    <None Include="wwwroot\img\svg\dropbox.svg" />
+    <None Include="wwwroot\img\svg\GoogleDrive.svg" />
+    <None Include="wwwroot\img\svg\image-frame.svg" />
+    <None Include="wwwroot\img\svg\Logo.svg" />
+    <None Include="wwwroot\img\svg\move.svg" />
+    <None Include="wwwroot\img\svg\radio.svg" />
+    <None Include="wwwroot\img\svg\thumbnail.svg" />
+  </ItemGroup>
+
+</Project>

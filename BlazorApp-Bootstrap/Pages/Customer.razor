@@ -1,0 +1,160 @@
+﻿@page "/customer"
+
+<div class="card shadow-lg mb-5">
+    <h5 class="card-header border-bottom-0">Alta de Clientes</h5>
+    <div class="card-body container">
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-danger" role="alert">
+                    <i class="bi bi-exclamation-triangle-fill"></i> Los campos con el <stromg>* son campos obligatorios!</stromg>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control is-valid" id="validationName" placeholder="Nombre" required>
+                    <label for="validationName" class="form-label fs-6 fst-italic text-black-50">Nombre <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control is-valid" id="validationSecondName" placeholder="Segundo Nombre">
+                    <label for="validationSecondName" class="form-label fs-6 fst-italic text-black-50">Segundo Nombre</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control is-valid" id="validationLastName" placeholder="Apellido Paterno" required>
+                    <label for="validationLastName" class="form-label fs-6 fst-italic text-black-50">Apellido Paterno <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control is-valid" id="validationLastSecondName" placeholder="Nombre" required>
+                    <label for="validationLastSecondName" class="form-label fs-6 fst-italic text-black-50">Apellido Materno <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 mb-5">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Cliente Activo</label>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="email" class="form-control is-valid" id="validationLastEmail" placeholder="Correo Eletrónico" required>
+                    <label for="validationLastEmail" class="form-label fs-6 fst-italic text-black-50">Correo Eletrónico <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="date" class="form-control is-valid" id="validationLastDate" placeholder="Fecha de Nacimiento" required>
+                    <label for="validationLastDate" class="form-label fs-6 fst-italic text-black-50">Fecha de Nacimiento <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="tel" class="form-control is-valid" id="validationLastPhone" placeholder="Teléfono" required>
+                    <label for="validationLastPhone" class="form-label fs-6 fst-italic text-black-50">Teléfono <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <select class="form-control is-invalid form-select" id="validationFale" aria-label="Floating label select example">
+                        <option selected disabled value="">Seleccione...</option>
+                        <option value="1">Mascúlino</option>
+                        <option value="2">Feménino</option>
+                    </select>
+                    <label for="validationFale" class="form-label fs-6 fst-italic text-black-50">Seleccione un sexo <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control is-valid" id="validationLastCP" placeholder="Código Postal" required>
+                    <label for="validationLastCP" class="form-label fs-6 fst-italic text-black-50">Código Postal <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-3">
+                <div class="form-floating">
+                    <select class="form-control is-invalid form-select" id="validationState" aria-label="Estado">
+                        <option selected disabled value="">Seleccione...</option>
+                        <option value="1">Guerrero</option>
+                        <option value="2">Ciudad de México</option>
+                    </select>
+                    <label for="validationState" class="form-label fs-6 fst-italic text-black-50">Estado <strong>*</strong></label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Looks bad!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <div class="col-12">
+            <a href="#" class="btn btn-outline-info shadow mb-2 rounded">Guardar</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+@code {
+
+}
